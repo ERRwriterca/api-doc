@@ -169,9 +169,9 @@ This endpoint retrieves a specific record.
 
 ### URL Parameters
 
-Parameter | Description
---------- | -----------
-phone | The phone number of the record to retrieve
+Parameter | Value | Description
+--------- | ----- | -----------
+phone | number | The phone number of the record to retrieve
 
 ## Add a Record
 
@@ -232,7 +232,7 @@ Parameter | Value | Description
 --------- | ----- | -----------
 name | string | The name associated with the new record.
 state | string | The location associated with the new record.
-phone | The phone number of the new record.
+phone | number | The phone number of the new record.
 
 ## Update a Record
 
